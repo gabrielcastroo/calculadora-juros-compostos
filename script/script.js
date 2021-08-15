@@ -12,7 +12,7 @@ function jurosCompostos(){
     for(var i=0; i<periodos; i++){
         calculo = montante*(1+juros)
         montante = valorMensal+calculo
-        elementos.push([`Mês ${i+1}`,parseFloat(calculo),parseFloat(valorInvestido)])
+        elementos.push([`Mês ${i}`,parseFloat(calculo),parseFloat(valorInvestido)])
         valorInvestido += valorMensal   
     }
 
@@ -34,7 +34,7 @@ function jurosCompostos(){
             height: 400,
             width: 720
         }
-        const chart = new google.visualization.LineChart(container)
+        const chart = new google.visualization.ColumnChart(container)
         chart.draw(data, options)
     }
     google.charts.load('current', { packages: [ 'corechart' ] })

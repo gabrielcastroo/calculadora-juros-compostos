@@ -9,21 +9,26 @@
 </head>
 <body>
     <div class="container">
-        <h1>Calculadora Juros Compostos</h1>
-        <input type="text" name="capital" id="capital" placeholder="Digite o Capital">
-        <input type="text" name="valorMensal" id="valorMensal" placeholder="Digite o Valor Mensal">
-        <input type="text" name="taxa" id="taxa" placeholder="Digite a taxa de juros em %">
-        <input type="text" name="periodo" id="periodo" placeholder="Digite o período em meses">
-        <button class="btn" onclick="jurosCompostos()">Calcular</button>
+        <div class="content">
+            <h1>Calculadora Juros Compostos</h1>
+            <input type="text" name="capital" id="capital" placeholder="Digite o Valor Inicial">
+            <input type="text" name="valorMensal" id="valorMensal" placeholder="Digite o Valor Mensal">
+            <input type="text" name="taxa" id="taxa" placeholder="Digite a taxa de juros em %">
+            <input type="text" name="periodo" id="periodo" placeholder="Digite o período em meses">
+            <button class="btn" onclick="jurosCompostos()">Calcular</button>
 
-        <div class="resultado">
-            <p>Valor investido: </p>
-            <p>Total em juros: </p>
-            <p>Valor total: </p>
+            <div class="resultado">
+                <p>Valor investido: </p>
+                <p>Total em juros: </p>
+                <p>Valor total: </p>
+            </div>
+
+            
         </div>
-
         <div id="chart"></div>
     </div>
+
+    <footer>Desenvolvido por Gabriel Castro</footer>
 
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript" src="script/script.js"></script>
