@@ -2,9 +2,9 @@
 
 ### Calculadora de Juros Compostos com aporte mensal
 
-[![NPM](https://img.shields.io/npm/1/react)](https://github.com/gabrielcastroo/calculadora-juros-compostos/blob/main/LICENSE)
+![GitHub](https://img.shields.io/github/license/gabrielcastroo/calculadora-juros-compostos?style=plastic)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/gabrielcastroo/calculadora-juros-compostos?style=plastic)
 
 <img src="assets/preview.gif" alt="preview">
 
