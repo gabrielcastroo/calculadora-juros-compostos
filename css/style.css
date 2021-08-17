@@ -75,6 +75,7 @@ input {
 }
 .content button.btn:hover {
     background: #E14F50;
+    transition: 0.5s;
 }
 #chart {
     margin-bottom: 10px;
@@ -86,4 +87,11 @@ footer {
     font-size: large;
     font-style: bold;
     color: #FFF;
+}
+.resultado {
+    padding: 30px;
+    margin: 5px;
+    border: solid #DDD 1px;
+    border-radius: 4px;
+    box-shadow: 0 0 1em #DDD;
 }

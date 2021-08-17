@@ -20,11 +20,9 @@ function jurosCompostos(){
     let rendimento = montante - valorInvestido
     rendimento = parseFloat(rendimento.toFixed(2))
 
-    document.querySelector(".resultado").innerHTML = `<p>Valor investido: ${valorInvestido} </p><p>Total em juros: ${rendimento}</p><p>Valor total: ${montante}</p>`
+    document.querySelector(".resultado").innerHTML = `<h2>Resultado</h2><p>Valor investido:   ${valorInvestido} </p><p>Total em juros:   ${rendimento}</p><p>Valor total:   ${montante}</p>`
     const descricao = [['Mes', 'Montante', 'Valor investido']]
-
     const array = descricao.concat(elementos)
-    console.log(array)
 
     function drawChart() {
         const container = document.querySelector('#chart')
@@ -39,5 +37,4 @@ function jurosCompostos(){
     }
     google.charts.load('current', { packages: [ 'corechart' ] })
     google.charts.setOnLoadCallback(drawChart)
-    console.log(elementos)
 }
